@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require_relative 'campfire'
+
+message ||= []
+
+ARGV[0..-1].each do |a|
+  message << a
+end
+
+room = Campfire.room(487393)
+room.message message.join(' ')
