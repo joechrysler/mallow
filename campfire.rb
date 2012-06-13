@@ -1,11 +1,10 @@
 require 'rubygems'
 require 'httparty'
 require 'json'
-require_relative 'config'
+require_relative 'recipe'
 
 class Campfire
   include HTTParty
-  include Config
 
   base_uri   $uri
   basic_auth $key, 'x'
