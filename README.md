@@ -9,3 +9,6 @@ you can call it **with quotes**  `mallow "Inspiring thoughts that aren't limited
 
 just call it  `mallow and get back to work`
 
+## there's a tiny bit of configuring to do
+rename recipe-example to recipe and add your own uri and campfire api-key.
+
